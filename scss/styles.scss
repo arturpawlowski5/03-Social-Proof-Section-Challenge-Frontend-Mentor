@@ -1,0 +1,33 @@
+/* Import */
+
+@import "main";
+@import "header";
+@import "footer";
+@import "attribution";
+@import "config";
+@import "responsive";
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: "Spartan", sans-serif;
+	font-size: 1rem;
+	line-height: 1.3rem;
+	font-weight: 400;
+	color: var(--very-dark-magenta);
+	background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+	background-position: left top, right bottom;
+	background-repeat: no-repeat, no-repeat;
+	display: flex;
+}

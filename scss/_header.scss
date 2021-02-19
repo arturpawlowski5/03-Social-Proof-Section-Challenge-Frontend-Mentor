@@ -1,0 +1,88 @@
+.header {
+	margin: 20px auto 0px;
+	display: flex;
+	flex-direction: row;
+}
+
+.title {
+	width: 47%;
+	padding: 20px;
+	margin: 10px;
+}
+
+.h1_style {
+	font-size: 3.8rem;
+	line-height: 4rem;
+	font-weight: 700;
+}
+
+.h2_style {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+.stars__all {
+	width: 53%;
+	padding: 20px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.stars-box {
+	&__01 {
+		width: 560px;
+		background-color: var(--light-gray-magenta);
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		border-radius: 10px;
+		padding: 20px;
+		margin: 10px 0px 10px 0px;
+	}
+
+	&__02 {
+		width: 560px;
+		background-color: var(--light-gray-magenta);
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		border-radius: 10px;
+		padding: 20px;
+		margin: 10px 0px 10px 70px;
+	}
+
+	&__03 {
+		width: 560px;
+		background-color: var(--light-gray-magenta);
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		border-radius: 10px;
+		padding: 20px;
+		margin: 10px 0px 10px 140px;
+	}
+}
+
+.stars__stars {
+	margin: 5px 20px 5px 20px;
+}
+
+.stars__text {
+	margin: 5px 5px 5px 20px;
+	font-size: 1.1rem;
+	font-weight: 700;
+	align-self: inherit;
+}
+
+.star__checked {
+	width: 20px;
+	margin: 0px 3px 0px 3px;
+}
+
+.star__not-checked {
+	width: 20px;
+	margin: 0px 3px 0px 3px;
+}
